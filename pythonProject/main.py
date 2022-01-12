@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# absolutes: 절대값 배열
+# signs : 사인
+# answer : 세 수의 함
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+answer = 0
+numbers = [1,2,3,4,6,7,8,0]
+full = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(sum(full) - sum(numbers))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+#answer = int(sum(full)) - int(sum(numbers()))
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#print(answer)
